@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Muhammad Uzair — Portfolio</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<header class="nav-wrap">
+  <nav class="nav">
+    <div class="brand">Muhammad Uzair</div>
+    <button id="menuBtn" class="menu-btn" aria-label="toggle menu">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <div class="container hero-inner">
+    <div class="avatar-wrap">
+      <img src="assets/profile.jpg" alt="Muhammad Uzair" class="avatar">
+      <div class="avatar-glow"></div>
+    </div>
+    <div class="hero-text">
+      <h1>Hi, I'm <span class="accent">Muhammad Uzair</span></h1>
+      <p class="lead">GoHighLevel Specialist · Automation · Funnels · CRM</p>
+      <div class="cta">
+        <a class="btn primary" href="#contact">Hire Me</a>
+        <a class="btn ghost" href="#work">See Work</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main>
+  <section id="about" class="section card">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I build clean, reliable automation systems using GoHighLevel: workflows, pipelines, calendars, funnels, and snapshot templates. I focus on clarity, speed, and results — so clients get more leads and booked calls.</p>
+    </div>
+  </section>
+
+  <section id="services" class="section card">
+    <div class="container">
+      <h2>Services</h2>
+      <div class="grid">
+        <div class="service"><h3>GHL Automation</h3><p>Advanced triggers, follow-ups, and lead nurturing.</p></div>
+        <div class="service"><h3>CRM & Pipelines</h3><p>Setup pipelines, tags, dashboards for predictable sales.</p></div>
+        <div class="service"><h3>Funnels & Pages</h3><p>High-converting funnels with forms and calendars.</p></div>
+        <div class="service"><h3>Calendars & Appointments</h3><p>Booking flows, reminders and show-up optimization.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="section card">
+    <div class="container">
+      <h2>Selected Work</h2>
+      <p>Snapshots, funnels and automations I built for clients. (Available on request)</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-card">
+    <div class="container">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <div><strong>Email</strong><br/><a href="mailto:uzair34535@gmail.com">uzair34535@gmail.com</a></div>
+        <div><strong>WhatsApp</strong><br/><a href="https://wa.me/923354760392">+92 335 476 0392</a></div>
+        <div><strong>Availability</strong><br/>Project-based · Full-time</div>
+      </div>
+
+      <form id="contactForm" class="contact-form" autocomplete="off">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="message" rows="5" placeholder="Brief message / project details" required></textarea>
+        <button class="btn primary" type="submit">Send Message</button>
+        <p class="form-note" id="formNote" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">© 2025 Muhammad Uzair — All rights reserved</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
